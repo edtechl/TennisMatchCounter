@@ -13,6 +13,11 @@ public class MainActivity extends AppCompatActivity {
 
     int playerBScore = 0;
 
+    Button addPlayerAScore;
+    Button subtractPlayerAScore;
+    Button addPlayerBScore;
+    Button subPlayerAScore;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -189,14 +194,4 @@ public class MainActivity extends AppCompatActivity {
         }
         return convertedScore;
     }
-
-    /*
-    public void subtractGamePlayerAButton(View view) {
-
-    }
-
-    public void addGamePlayerAButton(View view) {
-
-    }
-    */
 }
